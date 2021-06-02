@@ -4,11 +4,6 @@ import AddUser from './components/userForm/AddUser';
 import UserList from './components/userForm/UserList';
 
 function App() {
-  const users=[{
-    key:Math.random().toString(),
-    name:"Arun",
-    age:26
-  }]
 
   const[userList,setUserList]= useState([]);
 
